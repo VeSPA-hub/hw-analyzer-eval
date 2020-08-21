@@ -1,0 +1,50 @@
+(kicad_sch (version 20200714) (host eeschema "(5.99.0-2858-ga3fc028c9b)")
+
+  (page 2 5)
+
+  (paper "A4")
+
+  (title_block
+    (comment 2 "VeSPA - PCIe eval plug")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 63.5 55.88) (size 40.64 7.62)
+    (stroke (width 0) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid 00000000-0000-0000-0000-00005e208d07)
+    (property "Sheet name" "CLOCK" (id 0) (at 63.5 55.2445 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "clock.kicad_sch" (id 1) (at 63.5 64.0085 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 63.5 25.4) (size 39.37 8.89)
+    (stroke (width 0) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid 00000000-0000-0000-0000-00005dbd2b73)
+    (property "Sheet name" "CONNECTORS" (id 0) (at 63.5 24.7645 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "connectors.kicad_sch" (id 1) (at 63.5 34.7985 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 63.5 40.64) (size 39.37 8.89)
+    (stroke (width 0) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid 00000000-0000-0000-0000-00005dbd2beb)
+    (property "Sheet name" "REDRIVER" (id 0) (at 63.5 40.0045 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "redriver.kicad_sch" (id 1) (at 63.5 50.0385 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+)
